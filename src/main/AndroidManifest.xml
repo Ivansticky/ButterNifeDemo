@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="ivansticky.myapplication">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".splash.IvanApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".DownLoadApkActivity">
+        </activity>
+
+        <service
+            android:name=".DownLoadService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+
+        <activity android:name=".WebViewActivity">
+        </activity>
+        <activity android:name=".SearchActivity">
+        </activity>
+        <activity
+            android:name=".splash.SplashActivity"
+            android:theme="@style/AppTheme.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".splash.DownSplashImgService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+
+        <activity android:name=".RecycleViewActivity">
+        </activity>
+    </application>
+
+</manifest>

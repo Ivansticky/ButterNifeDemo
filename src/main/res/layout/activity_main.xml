@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="ivansticky.myapplication.MainActivity">
+
+    <Button
+        android:id="@+id/btn_yanzheng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorAccent"
+        android:text="发送验证码"/>
+
+    <Button
+        android:id="@+id/btn_chongfu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="防止按钮重复点击"/>
+
+    <Button
+        android:id="@+id/btn_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent"
+        android:text="APK下载"/>
+
+    <Button
+        android:id="@+id/btn_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent"
+        android:text="webview"/>
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent"
+        android:text="Rx搜索"/>
+
+    <Button
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent"
+        android:text="倒计时器"/>
+
+    <Button
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent"
+        android:text="列表,刷新"/>
+
+</LinearLayout>
